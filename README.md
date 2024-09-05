@@ -1,6 +1,6 @@
 
 
-# **Bash Scripting **
+# Bash Scripting 
 
 This repository contains Bash scripts for performing a simple ETL (Extract, Transform, Load) process that are a cron job scheduled to run every day at 12:00 AM, a script that loads json and csv files into a folder as well as SQL scripts for querying a PostgreSQL database. 
 
@@ -80,7 +80,7 @@ To schedule the ETL script to run every day at 12:00 AM:
 2. Add the following line to schedule the ETL script:
 
     ```bash
-    0 0 * * * /path/to/your/Scripts/Bash/etl_script.sh
+    0 0 * * * ./Scripts/Bash/etl_script.sh
     ```
 
 ---
